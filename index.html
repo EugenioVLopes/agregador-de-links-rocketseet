@@ -12,6 +12,12 @@
             <img src="assets/avatar.png" alt="Foto do avatar" />
             <p>@eugeniolopes</p>
          </div>
+         <script>
+            function toggleMode() {
+               const html = document.documentElement
+               html.classList.toggle("light")
+            }
+         </script>
          <div id="switch" onclick="toggleMode()">
             <button></button>
             <span></span>
@@ -48,6 +54,5 @@
          <footer>Feito com ♥ pela Rocketseat</footer>
       </div>
       <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-      <script src="/script.js"></script>
    </body>
 </html>
